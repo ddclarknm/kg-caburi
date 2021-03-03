@@ -1,0 +1,35 @@
+02-13 19:46:08 Kicad_action_plugins.swap_pins.action_swap_pins 87:Plugin executed on: 'win32'
+02-13 19:46:08 Kicad_action_plugins.swap_pins.action_swap_pins 88:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+02-13 19:46:08 Kicad_action_plugins.swap_pins.action_swap_pins 89:KiCad build version: (5.1.6)-1
+02-13 19:46:08 Kicad_action_plugins.swap_pins.action_swap_pins 90:Swap pins plugin version: 15 started
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 58:Starting swap_pins
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 65:main sch file is: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.sch
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 66:main pcb file is: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.kicad_pcb
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 67:sch cache file is: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl-cache.lib
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 81:Swaping pins: 11, 9 on: J1 on nets: Net-(J1-Pad11), Net-(J1-Pad9)
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 88:All schematics files are:
+C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.sch
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 128:Connector_Generic:Conn_02x07_Odd_Even unit: 1 present on page: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.sch
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 137:Looking for: Connector_Generic:Conn_02x07_Odd_Even in cache.lib
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 160:Found symbol in cache library
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 176:Symbol has 1 units
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 194:Relevant pins are: name: Pin_11, number: 11; name: Pin_9, number: 9
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 206:Relevant pins are on units: 1, 1
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 215:Unit 1 on page: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.sch at: 3150, 3500
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 217:Unit 2 on page: C:\Users\ddcla\Google Drive\projects\kg-cable-asl\kg-cable-asl\kg-cable-asl.sch at: 3150, 3500
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 223:Pin 1 at: 2950, 3700
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 224:Pin 2 at: 2950, 3600
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 246:Pin 1 rotation: 0
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 247:Pin 2 rotation: 0
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 275:list_line_1=[]
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 308:list_line_2=[]
+02-13 19:46:08 Kicad_action_plugins.swap_pins.swap_pins 319:Could not find the pins connection. 
+Either the pins are disconnected or they are connected through short wire segment
+and net name was overriden by some other label.
+02-13 19:46:18 Kicad_action_plugins.swap_pins.action_swap_pins 145:Gracefully handled error while running
+Traceback (most recent call last):
+  File "C:\Users\ddcla\AppData\Roaming\kicad\scripting\plugins/Kicad_action_plugins/swap_pins/action_swap_pins.py", line 137, in Run
+    swap_pins.swap(board, pad1, pad2)
+  File "C:\Users\ddcla\AppData\Roaming\kicad\scripting\plugins/Kicad_action_plugins/swap_pins/swap_pins.py", line 320, in swap
+    raise ValueError("It makes no sense in swapping two disconneted pins!")
+ValueError: It makes no sense in swapping two disconneted pins!

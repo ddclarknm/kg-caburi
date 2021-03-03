@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+93C46,U1,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,C232890
+Jumper_NC_Small,"JP1,JP2,JP3",Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,
+Jumper_NO_Small,"JP5,JP4,JP6,JP7",Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,
+DB25_Male,J2,Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm,
+0.1u,C1,Capacitor_SMD:C_0402_1005Metric,C1525
+2.26k,"R8,R9,R10",Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17519
+Conn_02x08_Odd_Even,J1,Connector_PinHeader_2.00mm:PinHeader_2x08_P2.00mm_Vertical,
+12.1k,R12,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17431
+10k DNI,R11,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,
+1.0u,C2,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C28323
+2.26k DNI,"R1,R3,R5,R7,R2,R4,R6",Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,

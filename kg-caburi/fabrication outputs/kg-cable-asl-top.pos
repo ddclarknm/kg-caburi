@@ -1,0 +1,15 @@
+### Module positions - created on 02/17/21 18:38:25 ###
+### Printed by Pcbnew version kicad (5.1.6)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val        Package                                           PosX       PosY       Rot  Side
+C1        0.1u       C_0402_1005Metric                             150.9000  -109.7000  270.0000  top
+C2        1.0u       C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   142.2500  -108.7500  180.0000  top
+J2        DB25_Male  DSUB-25_Male_EdgeMount_P2.77mm                147.7729  -102.1080  180.0000  top
+R8        2.26k      R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   164.3929  -106.4260   90.0000  top
+R9        2.26k      R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   149.2250  -109.8550  270.0000  top
+R10       2.26k      R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   145.4150  -109.8550  270.0000  top
+R11       10k_DNI    R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   142.2500  -110.4000    0.0000  top
+R12       12.1k      R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   138.6000  -110.4000    0.0000  top
+U1        93C46      TSSOP-8_4.4x3mm_P0.65mm                       155.4000  -109.4000  180.0000  top
+## End
